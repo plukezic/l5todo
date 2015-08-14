@@ -17,7 +17,7 @@
         <exec executable="phpunit.bat" failonerror="true">
             <arg line="--coverage-clover ${output}/CodeCoverage/clover.xml 
                 --coverage-html ${output}/CodeCoverage/ 
-                --configuration {$basedir}/phpunit.xml 
+                --configuration ${basedir}/phpunit.xml 
                 ."/>
         </exec>
     </target>
